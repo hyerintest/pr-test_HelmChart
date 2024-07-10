@@ -1,11 +1,11 @@
-namespace: -@namespace@-
+namespace: pr-test-dev
 secret:
   name: []
   registry:
     name: regsecret
-    url: -@imageRepoName@-
-    username: -@accessKey@-
-    password: -@secretKey@-
+    url: turaco-dev-registry.turacocloud.com/stage-turaco-workspace-249/turaco
+    username: robot$test1234
+    password: gkwnRpYRWcmu5aT2x34rFRK81tGBePj2
     email: info@twolinecode.com
 egov_ingress:
   name: []
